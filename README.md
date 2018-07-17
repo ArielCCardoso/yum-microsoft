@@ -1,4 +1,4 @@
 # yum-microsoft
 
-TODO: Enter the cookbook description here.
+Cookbook que instala o respositório yum de pacotes da microsoft.
 
