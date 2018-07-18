@@ -24,8 +24,4 @@ when 'rhel'
 #   default['yum']['microsoft']['gpgkey'] = "https://download.fedoraproject.org/pub/microsoft/RPM-GPG-KEY-microsoft-#{node['platform_version'].to_i}"
 end
 default['yum']['microsoft']['gpgkey'] = 'https://packages.microsoft.com/keys/microsoft.asc'
-#default['yum']['microsoft']['failovermethod'] = 'priority'
-#default['yum']['microsoft']['gpgcheck'] = 'True'
-#default['yum']['microsoft']['enabled'] = 'True'
-#default['yum']['microsoft']['managed'] = 'True'
-default['yum']['microsoft']['make_cache'] = true
+
